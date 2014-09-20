@@ -29,9 +29,6 @@ class psock {
     // The raw PHP socket object.
     public $socketObj;
     
-    // Is the socket connected? This value shouldn't be relied upon.
-    public $connected = false;
-    
     /**
      * Create a new socket object.
      */
